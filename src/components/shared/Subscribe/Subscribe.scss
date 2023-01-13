@@ -1,0 +1,91 @@
+.shared-subscribe-components{
+    position: relative;
+    padding:max(65px, 6.5%) 7.5% max(50px, 5%);
+    margin: max(5%, 50px) 0 0;
+    color:#fff;
+    text-align: center;
+    @media(max-width:500px){
+        padding:55px 5%;
+    }
+    .bg{
+        clip-path: ellipse(100% 100% at 50% 100%);
+        position: absolute;
+        background: linear-gradient(rgba(var(--darker-color-rgb), 0.67), rgba(var(--darker-color-rgb), 0.67)), 
+            url('../../../assets/shared/subscribe.jpg');
+        background: -webkit-linear-gradient(rgba(var(--darker-color-rgb), 0.67), rgba(var(--darker-color-rgb), 0.67)), 
+            url('../../../assets/shared/subscribe.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        width: 100%;
+        height: 125%;
+        top:0;
+        left:0;
+        z-index: -1;
+        @media(max-width: 500px){
+            clip-path: none;
+            background-attachment: unset;
+        }
+    }
+    .bottom{
+        overflow: hidden;
+        z-index: 2;
+    }
+    p{
+        font-size: max(15px, 0.9vw);
+    }
+    h2{
+        font-size: max(25px, 2vw);
+        line-height: 1.5;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin: max(15px, 1.25vw) 0 max(22.5px, 2vw);
+    }
+    .email-container{
+        display: flex;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.3);
+        width: 45%;
+        border-radius: max(25px, 2vw);
+        margin:0 auto;
+        @media(max-width:1200px){
+            width: 350px;
+            max-width: 100%;
+        }
+    }
+    span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: max(17.5px, 1.15vw);
+        margin:0 max(5px, 0.35vw) 0 max(2vw, 15px)
+    }
+    input{
+        border:0;
+        padding:0 max(4.5px, 0.25vw)0;
+        background: none;
+        flex: 1;
+        color:#fff;
+        height: max(40px, 3vw);
+        font-size: max(13px, 0.8vw);
+        &::placeholder{
+            color:#fff;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+    button{
+        height: max(40px, 3vw); 
+        background: var(--light-color);
+        border:0;
+        color:#fff;
+        font-size: max(13.5px, 0.85vw);
+        padding:0 max(20px, 1.75vw);
+        border-radius:0 max(25px, 2vw) max(25px, 2vw) 0;
+        @media(max-width:500px){
+           padding:0 15px;
+        }
+    }
+}

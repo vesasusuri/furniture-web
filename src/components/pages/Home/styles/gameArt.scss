@@ -1,0 +1,47 @@
+.home-page .game-art{
+    margin: max(50px, 5%) 7.5%;
+    padding:max(40px, 4%) 10%;
+    background: url('../../../../assets/Home/game-art.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color:#fff;
+    position: relative;
+    clip-path: polygon(0 0, 92.5% 0, 100% 17.5%, 100% 100%, 7.5% 100%, 0 82.5%);
+    .bg1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+        background: var(--darker-color);
+        opacity: 0.65;
+    }
+    .text{
+        position: relative;
+        z-index: 2;
+    }
+    .link-container{
+        display: flex;
+    }
+    h1{
+        font-size: max(30px, 2.5vw);
+        text-transform: uppercase;
+    }
+    p{
+        color: #ECECEC;
+        font-size: max(15px, 0.95vw);
+        width: 85%;
+        line-height: 1.7;
+        margin:max(10px, 1vw) 0 max(17.5px, 1.75vw);
+    }
+}
+@media(max-width:1000px){
+    .home-page .game-art{
+        background-attachment: unset;
+        margin: 50px 3.5%;
+        padding: 40px 7.5%;
+        p{ width: 100%; }
+    }
+}

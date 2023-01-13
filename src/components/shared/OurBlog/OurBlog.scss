@@ -1,0 +1,122 @@
+.our-blog-component{
+    margin:max(5%, 50px) 0;
+    padding:0 2%;
+    position: relative;
+    z-index: 2;
+    @media(max-width:1350px){
+        padding:0 1.5%;
+    }
+    h1{
+        font-size: max(22.5px, 2vw);
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 1.5;
+        @media(max-width:550px){
+            padding:0 2.5%;
+        }
+    }
+    .link-container{
+        display: flex;
+        justify-content: center;
+    }
+    .rec-pagination{
+        display: none;
+    }
+}
+
+.our-blog-component .slider-item{
+    position: relative;
+    padding:max(6px, 0.5vw);
+    border-radius: max(12.5px, 1vw);
+    width: 92%;
+    margin: max(25px, 2.5vw) 0;
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 10px 22px -5px, rgba(0, 0, 0, 0.15) 0px 7px 15px -8px;
+    @media(max-width:1475px){
+        box-shadow: rgba(50, 50, 93, 0.1) 0px 7px 15px -5px, rgba(0, 0, 0, 0.15) 0px 5px 10px -8px;
+    }
+    @media(max-width:550px){
+        width: 97.5%;
+    }
+    &:hover{
+        background: var(--light-color);
+        .category{
+            background:var(--light-color);
+            color:#fff;
+        }
+        .img{
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+        }
+        a, h6, .date{
+            color:#fff;
+        }
+        .circle{
+            border:1px solid #fff;
+            color:#fff;
+        }
+    } 
+    .img-container{
+        width: 100%;
+        overflow: hidden;
+        border-radius: max(12.5px, 1vw);
+    }
+    .img{
+        width: 100%;
+        transition: 0.3s ease-in-out;
+        -webkit-transition: 0.3s ease-in-out;
+    }
+    .category{
+        position: absolute;
+        top:0;
+        left:0;
+        border-radius: max(7px, 0.5vw);
+        background: #fff;
+        color: var(--light-color);
+        padding:max(7px, 0.5vw) max(17.5px, 1.25vw);
+        font-size: max(12px, 0.8vw);
+    }
+    .text{
+        padding:max(15px, 1vw) max(9px, 0.7vw);
+    }
+    .date{
+        font-size: max(12px, 0.8vw);
+        margin-bottom: max(10px, 0.8vw);
+    }
+    .text a{
+        display: flex;
+        align-items: center;
+    }
+    h6{
+        font-size: max(12.5px, 0.825vw);
+        font-weight: 600;
+        flex: 1;
+        margin-right: max(15px, 1.25vw);
+        line-height: 1.5;
+        color: #000;
+    }
+    .circle{
+        width: max(33px, 2.5vw);
+        height: max(33px, 2.5vw);
+        border-radius: 50%;
+        border:1px solid #B2B2B2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: max(15px, 1.1vw);
+        color:#aaa;
+    }
+}
+body.dark-mode .our-blog-component{
+    .slider-item{
+        background: rgba(var(--darker-color-rgb), 1);
+        .category{
+            background: rgba(var(--darker-color-rgb), 1);
+            color:#fff;
+        }
+        h6{ color:#fff; }
+        .circle{
+            border:1px solid #fff;
+            color:#fff;
+        }
+    }
+}
