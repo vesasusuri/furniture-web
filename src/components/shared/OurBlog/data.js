@@ -1,50 +1,33 @@
 import { FormattedMessage } from "react-intl";
 
-import blog1 from '../../../assets/Home/chairShop1.png'
-import blog2 from '../../../assets/Home/chairShop1.png'
-import blog3 from '../../../assets/Home/chairShop1.png'
+import blog1 from '../../../assets/shared/furniture1.jpg'
+import blog2 from '../../../assets/shared/furniture4.jpg'
+import blog3 from '../../../assets/shared/furniture7.jpg'
+import chair4 from '../../../assets/shared/furniture2.jpg'
 
 export const Data1 = [
     {
         img:blog1,
-        category:<FormattedMessage id='marketing' defaultMessage='Marketing' />,
-        date:'12/04/2022',
-        title:<FormattedMessage id='our-blog-title1' defaultMessage='How important is your product packaging in marketing strategies' />,
+        category:<FormattedMessage id='marketing' defaultMessage='Comfy Chairs' />,
+        title:<FormattedMessage id='our-blog-title1' defaultMessage='Comfy Chairs 40$' />,
         to:'/'
     },
     {
         img:blog2,
-        category:<FormattedMessage id='clients' defaultMessage='Clients' />,
-        date:'12/04/2022',
-        title:<FormattedMessage id='our-blog-title2' defaultMessage='How our team was able to create a successful rebrand strategy for our client' />,
+        category:<FormattedMessage id='clients' defaultMessage='Lamps' />,
+        title:<FormattedMessage id='our-blog-title2' defaultMessage='Lamps 34$' />,
         to:'/'
     },
     {
         img:blog3,
-        category:<FormattedMessage id='gaming' defaultMessage='Gaming' />,
-        date:'09/11/2021',
-        title:<FormattedMessage id='our-blog-title3' defaultMessage='6 useful resources for game developers' />,
+        category:<FormattedMessage id='gaming' defaultMessage='Fluffy Chairs' />,
+        title:<FormattedMessage id='our-blog-title3' defaultMessage='Fluffy Chairs 74$' />,
         to:'/'
     },
     {
-        img:blog3,
-        category:<FormattedMessage id='gaming' defaultMessage='Gaming' />,
-        date:'09/11/2021',
-        title:<FormattedMessage id='our-blog-title3' defaultMessage='6 useful resources for game developers' />,
-        to:'/'
-    },
-    {
-        img:blog3,
-        category:<FormattedMessage id='gaming' defaultMessage='Gaming' />,
-        date:'09/11/2021',
-        title:<FormattedMessage id='our-blog-title3' defaultMessage='6 useful resources for game developers' />,
-        to:'/'
-    },
-    {
-        img:blog3,
-        category:<FormattedMessage id='gaming' defaultMessage='Gaming' />,
-        date:'09/11/2021',
-        title:<FormattedMessage id='our-blog-title3' defaultMessage='6 useful resources for game developers' />,
+        img:chair4,
+        category:<FormattedMessage id='gaming' defaultMessage='Wood Chairs' />,
+        title:<FormattedMessage id='our-blog-title3' defaultMessage='Wood Chairs 54$' />,
         to:'/'
     },
 ]

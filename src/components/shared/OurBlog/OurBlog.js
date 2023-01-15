@@ -28,9 +28,9 @@ const OurBlog = () => {
     };
 
     return(
-        <div className='our-blog-component'>
+        <div className='our-products'>
             <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                <FormattedMessage id='visualkos-blog' defaultMessage='Visualkos Blog' />
+                <FormattedMessage id='Our Products' defaultMessage='Our Products' />
             </h1>
 
              <Carousel className="slider styled-arrows" 
@@ -58,13 +58,6 @@ const OurBlog = () => {
                         )
                     })}
             </Carousel>
-
-            <div className="link-container">
-                <StyledLink 
-                    to='/'
-                    link={<FormattedMessage id='view-all' defaultMessage='View All' />}
-                />
-            </div>
         </div>
     )
 };

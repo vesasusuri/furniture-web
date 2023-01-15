@@ -42,18 +42,3 @@
         }
     }
 }
-body.theme-green .shared-trusted-by{
-    .logo1{ display: none; }
-    .logo2{ display: block; }
-}
-body.theme-red .shared-trusted-by{
-    .logo1{ display: none; }
-    .logo3{ display: block; }
-}
-body.theme-blue .shared-trusted-by{
-    .logo1{ display: none; }
-    .logo4{ display: block; }
-}
-body.dark-mode .shared-trusted-by h1{
-    color:#fff;
-}

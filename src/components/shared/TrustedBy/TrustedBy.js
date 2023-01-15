@@ -13,10 +13,7 @@ const TrustedBy = () => {
                 {Data1.map((props) => {
                     return(
                     <div className="logo-container">
-                        <div className="logo logo1" style={{content: `url(${props.logo1})`}}></div>
-                        <div className="logo logo2" style={{content: `url(${props.logo2})`}}></div>
-                        <div className="logo logo3" style={{content: `url(${props.logo3})`}}></div>
-                        <div className="logo logo4" style={{content: `url(${props.logo4})`}}></div>
+                        <div className="logo logo1" style={{content: `url(${props.logo})`}}></div>
                     </div>
                     )
                 })}

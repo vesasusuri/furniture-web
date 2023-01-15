@@ -27,8 +27,8 @@
     display: flex;
     align-items: center;
     .logo-container{
-        content: url('../../../assets/shared/white-logo.svg');
-        height: max(21px, 1.8vw);
+        content: url('../../../assets/shared/white-logo.png');
+        width: 50%;
     }
 }
 .nav .nav-links{
@@ -55,7 +55,7 @@
     }
     .megamenu-arrow{
         position: absolute;
-        color: var(--main-color);
+        color: #07271c;
         font-size: 1.5vw;
         top:3.8vw;
         right: 0.4vw;
@@ -68,7 +68,7 @@
         position: absolute;
         top:3.5vw;
         width: 0;
-        background: var(--main-color);
+        background: #07271c;
         height: max(2px, 0.15vw);
         border-radius: 5px;
         left:0;
@@ -131,10 +131,16 @@
         color:#111;
     }
     .nav-logo .logo-container{
-        content: url('../../../assets/shared/violete-logo.svg');
+        content: url('../../../assets/shared/logo1.png');
+        width: 30%;
     }
     .nav-auth .contact-us{
         border:1px solid var(--main-color);
         color: var(--main-color);
+        width: 100%;
+    }
+
+    .nav-links{
+        width: 100%;
     }
 }

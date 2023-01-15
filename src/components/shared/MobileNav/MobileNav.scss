@@ -33,7 +33,7 @@
         align-items: center;
     }
     .mobile-logo-container{
-        content: url('../../../assets/shared/violete-logo.svg');
+        content: url('../../../assets/shared/logo1.png');
         height:25px;
     }
     button{
@@ -156,7 +156,7 @@ body.dark-mode{
     .mobile-sidebar .sidebar-logo-row{
         border-bottom: 1px solid #bbb;
         .mobile-logo-container{
-            content: url('../../../assets/shared/white-logo.svg');
+            content: url('../../../assets/shared/white-logo.png');
         }
         button{ color:#ddd; }
     }

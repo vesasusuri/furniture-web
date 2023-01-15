@@ -7,12 +7,10 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import "./navbar.scss";
 
 import PortfolioMenu from "./Megamenus/PortfolioMenu";
-import ServicesMenu from "./Megamenus/ServicesMenu";
+// import AboutData from "./Megamenus/AboutData";
 import AboutMenu from "./Megamenus/AboutMenu";
-
+//import { AboutData } from "./data";
 import MobileNav from "../MobileNav/MobileNav";
-import { AiOutlineMenu } from "react-icons/ai";
-import ThemeSwitcher from "../Footer/ThemeSwitcher";
 
 const Navbar = (props) => {
   const [isSticky, setIsSticky] = useState(false);
@@ -46,13 +44,8 @@ const Navbar = (props) => {
         <div className="nav-link home-link">
           <Link to="/" className="inner-nav-link">
             <FormattedMessage id="home" defaultMessage="Home" />
-            <MdKeyboardArrowDown className="arrow1" />
           </Link>
-          <div className="megamenu-arrow">
-            <BsTriangleFill />
-          </div>
           <div className="line"></div>
-          <ServicesMenu />
         </div>
 
         <div className="nav-link about-us-link">
@@ -64,7 +57,7 @@ const Navbar = (props) => {
             <BsTriangleFill />
           </div>
           <div className="line"></div>
-          <PortfolioMenu />
+          <AboutMenu />
         </div>
 
         <div className="nav-link furniture-link">
