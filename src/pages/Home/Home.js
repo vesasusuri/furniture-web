@@ -13,11 +13,12 @@ import Banner from '../../components/pages/banner1/Banner'
 // import Partnerships from '../../components/pages/Home/Partnerships'
 // import GameArt from '../../components/pages/Home/GameArt'
 // import VisualAcademy from '../../components/pages/Home/VisualAcademy'
-// import OurBlog from '../../components/shared/OurBlog/OurBlog'
+ import OurBlog from '../../components/shared/OurBlog/OurBlog'
 // import Testimonials from '../../components/shared/Testimonials/Testimonials'
 // import Subscribe from '../../components/shared/Subscribe/Subscribe'
 import Footer from '../../components/shared/Footer/Footer'
 import Shop from '../../components/pages/shop/shop'
+import WhyChooseUs from '../../components/pages/whyChooseUs/whyChooseUs'
 
 const Home = () => {
     return (
@@ -25,6 +26,8 @@ const Home = () => {
             <Navbar />
             <Banner/>
             <Shop/>
+            <WhyChooseUs/>
+            <OurBlog />
             {/* <TrustedBy />
             <WhatWeOffer />
             <Solutions2 />
