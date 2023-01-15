@@ -36,10 +36,6 @@ export const FooterData = [
                 to:'/'
             },
             {
-                link: <FormattedMessage id='careers' defaultMessage='Careers' />,
-                to:'/'
-            },
-            {
                 link: <FormattedMessage id='our-work' defaultMessage='Our Work' />,
                 to:'/'
             },
@@ -57,7 +53,7 @@ export const FooterData = [
         category:<FormattedMessage id='services' defaultMessage='Services' />,
         links:[
             {
-                link: <FormattedMessage id='brand-design' defaultMessage='Brand Design' />,
+                link: <FormattedMessage id='brand-design' defaultMessage='Furniture Design' />,
                 to:'/'
             },
             {
@@ -65,19 +61,11 @@ export const FooterData = [
                 to:'/'
             },
             {
-                link: <FormattedMessage id='game-art' defaultMessage='Game Art' />,
-                to:'/'
-            },
-            {
-                link: <FormattedMessage id='3d-art-work' defaultMessage='3D Art Work' />,
+                link: <FormattedMessage id='3d-art-work' defaultMessage='3D Room Design' />,
                 to:'/'            
             },
             {
-                link: <FormattedMessage id='animations' defaultMessage='Animations' />,
-                to:'/'
-            },
-            {
-                link: <FormattedMessage id='video-production' defaultMessage='Video Production' />,
+                link: <FormattedMessage id='animations' defaultMessage='Decorations' />,
                 to:'/'
             },
             {
@@ -91,10 +79,6 @@ export const FooterData = [
         links:[
             {
                 link: <FormattedMessage id="contact-us" defaultMessage='Contact Us' />,
-                to:'/'
-            },
-            {
-                link: <FormattedMessage id="culture" defaultMessage='Culture' />,
                 to:'/'
             },
             {

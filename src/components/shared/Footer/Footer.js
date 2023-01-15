@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { FooterData, SocialMedia } from './data';
 import { Link } from 'react-router-dom';
-import ThemeSwitcher from './ThemeSwitcher';
 import SelectLanguage from '../SelectLanguage/SelectLanguage';
 import './footer.scss'
-import ColorSwitch2 from './ColorSwitch2';
 
 const Footer = (props) => {
 
@@ -21,9 +19,9 @@ const Footer = (props) => {
                         <Link to='/' className='logo-container'>
                             <div className="logo"></div>
                         </Link>
-                        <h5><FormattedMessage id='footer-paragraph1' defaultMessage='Building a creative revolution.' /></h5>
-                        <p><FormattedMessage id='PHONE' defaultMessage='PHONE' />: +383 43 560 863</p>
-                        <p><FormattedMessage id='EMAIL' defaultMessage='EMAIL' />:  info@visualkos.com</p>
+                        <h5><FormattedMessage id='footer-paragraph1' defaultMessage='Build your dream home with us.' /></h5>
+                        <p><FormattedMessage id='PHONE' defaultMessage='PHONE' />: +383 48 771 188</p>
+                        <p><FormattedMessage id='EMAIL' defaultMessage='EMAIL' />:  vvesasusuri@gmailcom</p>
                     </div>
                     <div className="links1">
                         {SocialMedia.map((props) => {
@@ -56,7 +54,7 @@ const Footer = (props) => {
 
             <div className="last-row">
 
-                <p><FormattedMessage id='footer-paragraph2' defaultMessage='©2022 VisualKos | ALL RIGHTS RESERVED' /></p>
+                <p><FormattedMessage id='footer-paragraph2' defaultMessage='© 2022 Vesa Susuri  | ALL RIGHTS RESERVED' /></p>
      
                 <SelectLanguage
                     setLanguage={props.setLanguage}

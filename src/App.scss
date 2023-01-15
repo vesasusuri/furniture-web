@@ -116,6 +116,7 @@ input{ outline: none; }
   // --main-color-rgb:128, 53, 160;
   --dark-color:#212F1D;
   --shadow:#424A3D;
+  --light-color:#00C193;
   // --light-color:#C173E7;
   // --darker-color: #48005A;
   // --darker-color-rgb: 72, 0, 90;
@@ -137,41 +138,3 @@ body.theme-green{
     }
   }
 }
-body.theme-red{
-  --main-color:#C11B36;
-  --main-color-rgb:193, 27, 54;
-  --dark-color: #3a050f;
-  --shadow:#8B1125;
-  --light-color:#DB777E;
-  --darker-color: #591A28;
-  --darker-color-rgb: 89, 26, 40;
-  --other-color: #4A0D12;
-
-  .styled-arrows{
-    .rec-arrow, .rec-arrow-left, .rec-arrow-right{
-      color: #C11B36 !important;
-    }
-  }
-}
-body.theme-blue{
-  --main-color:#1B74EE;
-  --main-color-rgb:27, 116, 238;
-  --dark-color: #082041;
-  --shadow:#145AB8;
-  --light-color:#4F9AFF;
-  --darker-color: #133a70;
-  --darker-color-rgb: 19, 58, 112;
-  --other-color: #0b254b;
-
-  .styled-arrows{
-    .rec-arrow, .rec-arrow-left, .rec-arrow-right{
-      color: #1B74EE !important;
-    }
-  }
-}
-
-body.dark-mode{
-  background: var( --dark-color);
-  color:#fff;
-}
-
