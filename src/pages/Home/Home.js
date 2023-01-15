@@ -7,6 +7,7 @@ import Shop from '../../components/pages/shop/shop'
 import WhyChooseUs from '../../components/pages/whyChooseUs/whyChooseUs'
 import KeepUpdated from '../../components/pages/keepUpdated/keepUpdated'
 import TrustedBy from '../../components/shared/TrustedBy/TrustedBy'
+import ModernDesign from '../../components/pages/modernDesign/modernDesign'
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Shop/>
             <WhyChooseUs/>
             <OurBlog />
+            <ModernDesign/>
             <KeepUpdated/>
             {/* <TrustedBy/> */}
             <Footer />
