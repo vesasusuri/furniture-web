@@ -14,8 +14,8 @@
         display: flex;
         align-items: center;
         .mobile-logo-container{
-            content: url('../../../../assets/shared/white-logo.svg');
-            height:27.5px;
+            content: url('../../../../assets/shared/white-logo.png');
+            height:40.5px;
         }
     }
     button{
@@ -36,19 +36,11 @@
     -webkit-transition: 0.2s ease;
     .mobile-logo-row a{
         .mobile-logo-container{
-            content: url('../../../../assets/shared/violete-logo.svg') !important;
+            content: url('../../../../assets/shared/logo1.png') !important;
+            height: 28px;
         }
     }
     button{
         color:#31335b !important;
-    }
-}
-body.dark-mode{
-    .toolbar__sticky, .white-nav .mobile-toolbar{
-        background: var(--dark-color) !important;
-        .mobile-logo-row a .mobile-logo-container{
-            content: url('../../../../assets/shared/white-logo.svg') !important;
-        }
-        button{ color:#fff !important; }
     }
 }
