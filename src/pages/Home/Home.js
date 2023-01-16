@@ -8,6 +8,7 @@ import WhyChooseUs from '../../components/pages/whyChooseUs/whyChooseUs'
 import KeepUpdated from '../../components/pages/keepUpdated/keepUpdated'
 import TrustedBy from '../../components/shared/TrustedBy/TrustedBy'
 import ModernDesign from '../../components/pages/modernDesign/modernDesign'
+import Products from '../../components/pages/products/products'
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <OurBlog />
             <ModernDesign/>
             <KeepUpdated/>
+            <Products/>
             {/* <TrustedBy/> */}
             <Footer />
         </div>
